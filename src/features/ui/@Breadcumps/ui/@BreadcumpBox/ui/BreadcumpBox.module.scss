@@ -1,0 +1,12 @@
+.root {
+  text-align: center;
+  width: 100%;
+  position: relative;
+
+  &__text {
+    background: inherit;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,21 @@
+.root {
+  position: relative;
+  max-width: 250px;
+  display: flex;
+  background: inherit;
+
+  &__input {
+    text-align: center;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 20%;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: transparent;
+    position: absolute;
+  }
+}
